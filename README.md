@@ -3,20 +3,15 @@
 
 The project is based on the RISC V talent development program.
 
-
-## Task00 - Installation
-
-```bash
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
-```
-
-## Task01 - Development of C program
-
-### Step01: Fire up the terminal 
+<details>
+  <summary>Task00 - Installation</summary>
+  not updated yet
+</details>
+<details>
+  
+  <summary>Task01 - Development of C program</summary>
+  
+  ### Step01: Fire up the terminal 
 ```bash
 vsduser@vsduser-VirtualBox:~$ 
 ```
@@ -59,3 +54,4 @@ gcc sum1ton.c
 
 ```
 
+</details>
