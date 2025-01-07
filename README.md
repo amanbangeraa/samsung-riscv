@@ -4,11 +4,6 @@
 The project is based on the RISC V talent development program.
 
 <details>
-  <summary>Task00 - Installation</summary>
-  not updated yet
-</details>
-
-<details>
   
   <summary>Task01 - Development of C program</summary>
 
