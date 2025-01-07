@@ -2,11 +2,22 @@
 # RISC-V Talent development Program
 
 The project is based on the RISC V talent development program.
+***
+## 🚀 About Me 
 
+Name: Aman Bangera <br>
+College: Sahyadri College of Engineering & Manangement<br>
+Contact me: atharvbangera2005@gmail.com / aman.ec23@sahyadri.edu.in<br>
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amanbangera?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
+
+---
 <details>
-  
   <summary>Task01 - Development of C program</summary>
 
+---
 ### Step01: Fire up the terminal 
 ```bash
 vsduser@vsduser-VirtualBox:~$
