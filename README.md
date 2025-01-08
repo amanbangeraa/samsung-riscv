@@ -71,23 +71,23 @@ gcc sum1ton.c
 
 ### Step07: Compile the program in Assembly
 ```bash
-riscv64-unknown-elf-gcc -01 -mabi=lp64 -march=rv6 4i-o sumiton.o sumiton.c
+riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv6 4i-o sum1ton.o sum1ton.c
 ```
 ![assembly](https://github.com/amanbangeraa/samsung-riscv/blob/main/Task01/04-assembydump.png?raw=true)
 
 
 ---
 
-### Step08: disassemble the sumiton.o object file for the RISC-V 64-bit architecture, displaying its assembly instructions
+### Step08: disassemble the sum1ton.o object file for the RISC-V 64-bit architecture, displaying its assembly instructions
 ```bash
-riscv64-unknown-elf-objdump -d sumiton.o
+riscv64-unknown-elf-objdump -d sum1ton.o
 ```
 
 ---
 
-### Step09: disassemble the sumiton.o object file for the RISC-V 64-bit architecture, enable easy scrolling
+### Step09: disassemble the sum1ton.o object file for the RISC-V 64-bit architecture, enable easy scrolling
 ```bash
-riscv64-unknown-elf-objdump -d sumiton.o | less
+riscv64-unknown-elf-objdump -d sum1ton.o | less
 ```
 ![step09](https://github.com/amanbangeraa/samsung-riscv/blob/main/Task01/05-assemblydumpless.png?raw=true)
 
@@ -103,5 +103,15 @@ riscv64-unknown-elf-objdump -d sumiton.o | less
 ### Step10: observe the begining and final bit and count the number of instructions executed using a programmable calculator and verify with the code
 ![obj2](https://github.com/amanbangeraa/samsung-riscv/blob/main/Task01/08-bitcalculation2.png?raw=true)
 
- 
+### Step 12: Compare the results with optimizations (-Ofast)
+```bash
+riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv6 4i-o sum1ton.o sum1ton.c
+```
+
+Once you have the optimized object file, disassemble it again:
+```bash
+riscv64-unknown-elf-objdump -d sum1ton.o | less
+```
+Then, perform the same search for main and instruction count calculations to compare with the non-optimized version.
+
 </details>
