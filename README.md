@@ -115,3 +115,12 @@ riscv64-unknown-elf-objdump -d sum1ton.o | less
 Then, perform the same search for main and instruction count calculations to compare with the non-optimized version.
 
 </details>
+<details>
+  <summary>Task02 - Simulation with Spike</summary>
+  
+  ### Step01: Compile the program
+  ```bash
+  gcc sum1ton.c
+  ```
+  
+</details>
