@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/d861ad0c-deff-460e-b453-b04367cc54e3)![image](https://github.com/user-attachments/assets/0d69ef82-9dab-41fa-8c39-27cde9549ace)![image](https://github.com/user-attachments/assets/438ee38a-783d-481d-898f-e6a3314aee54)
 # RISC-V Talent development Program
 
 The project is based on the RISC V talent development program.
@@ -117,7 +116,7 @@ Then, perform the same search for main and instruction count calculations to com
 </details>
 <details>
   <summary>Task02 - Simulation with Spike</summary>
-***
+  <hr>
 SPIKE is a simulator for the RISC-V architecture, allowing you to test and debug RISC-V programs without needing real hardware. It simulates a RISC-V processor and cache, and can run programs or even a Linux kernel. 
 
 PK (Proxy Kernel) is a lightweight environment that helps run statically-linked RISC-V programs, acting like a simple operating system.
