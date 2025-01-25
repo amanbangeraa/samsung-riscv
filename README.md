@@ -265,3 +265,114 @@ Test SPIKE through running a sample program (e.g. sum1ton.c) using both the gcc 
   ### 7. **Add Signals to GTKWave:**
   ### 7. **Add Signals to GTKWave:**
 </details>
+<details>
+  <summary>Task05: Project Overview</summary>
+  
+  ### BlueSense Automation System
+  
+  The BlueSense Automation System is an IoT project designed to automate home appliances and environmental monitoring using Bluetooth and DHT sensors. The system uses a RISC-V SoC chip to control a relay module based on Bluetooth commands, alongside gathering temperature and humidity data from a DHT sensor. The output of the system is controlled, allowing precise control over devices.
+
+This project demonstrates seamless integration of wireless communication (Bluetooth), environmental sensing (DHT), and home automation (Relay and PWM), offering a flexible and scalable solution for smart home applications.
+<br>
+
+  ### Working
+  BlueSense Automation System is an advanced home automation solution designed to control AC-powered appliances such as bulbs, fans, and more, via Bluetooth connectivity. This system allows users to conveniently switch appliances on or off using their mobile phone. Additionally, the BlueSense Automation System integrates a DHT sensor, which continuously measures the room's temperature. Based on the temperature readings, the system can adjust the fan speed—either slowing it down or increasing it—to maintain a comfortable environment. This combination of Bluetooth control and environmental monitoring makes BlueSense an intelligent and efficient solution for modern smart homes.
+
+  ### Components Required
+  <ul>
+  <li>RISC-V SoC Chip (e.g., CH32V00x series)</li>
+  <li>Bluetooth Module (e.g., HC-05 or HC-06)</li>
+  <li>DHT22 Sensor (for temperature and humidity readings)</li>
+  <li>Relay Module (for switching devices)</li>
+  <li>Power Supply (5V or 3.3V depending on the SoC and modules)</li>
+  <li>Jumper Wires</li>
+</ul>
+<br>
+
+  ### Pinout Diagram
+  
+  ![](https://github.com/amanbangeraa/samsung-riscv/blob/main/Task05/aman.jpg)
+  
+  <br>
+  
+  ### Pin Detais
+ <table border="1" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th>Component</th>
+            <th>Pin</th>
+            <th>Microcontroller GPIO</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>DHT22 Sensor</td>
+            <td>VCC</td>
+            <td>5V</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>GND</td>
+            <td>GND</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Data</td>
+            <td>PC0</td>
+        </tr>
+        <tr>
+            <td>HC05 Bluetooth Module</td>
+            <td>VCC</td>
+            <td>5V</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>GND</td>
+            <td>GND</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>TX</td>
+            <td>PD0 (RXD)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>RX</td>
+            <td>PD1 (TXD)</td>
+        </tr>
+        <tr>
+            <td>Relay Module 1</td>
+            <td>VCC</td>
+            <td>5V</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>GND</td>
+            <td>GND</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Control</td>
+            <td>PC4</td>
+        </tr>
+        <tr>
+            <td>Relay Module 2</td>
+            <td>VCC</td>
+            <td>5V</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>GND</td>
+            <td>GND</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Control</td>
+            <td>PC5</td>
+        </tr>
+    </tbody>
+</table>
+
+    
+
+</details>
